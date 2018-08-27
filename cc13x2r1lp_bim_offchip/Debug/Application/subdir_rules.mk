@@ -1,0 +1,55 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+Application/bim_main.obj: /Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/examples/nortos/CC1352R1_LAUNCHXL/common/bim/nortos/src/bim_main.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" --cmd_file="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip/TOOLS/defines/cc13x2r1lp_bim_offchip_Debug.opt"  -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/board_support_pkg/CC26X2R1_CC13X2R1_LAUNCHXL/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X2 -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="Application/bim_main.d_raw" --obj_directory="Application" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+Application/bim_util.obj: /Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/bim/bim_util.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" --cmd_file="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip/TOOLS/defines/cc13x2r1lp_bim_offchip_Debug.opt"  -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/board_support_pkg/CC26X2R1_CC13X2R1_LAUNCHXL/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X2 -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="Application/bim_util.d_raw" --obj_directory="Application" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+Application/ccfg_app.obj: /Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/examples/nortos/CC1352R1_LAUNCHXL/common/bim/nortos/src/ccfg_app.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" --cmd_file="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip/TOOLS/defines/cc13x2r1lp_bim_offchip_Debug.opt"  -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/board_support_pkg/CC26X2R1_CC13X2R1_LAUNCHXL/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X2 -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="Application/ccfg_app.d_raw" --obj_directory="Application" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+Application/crc32.obj: /Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/crc/crc32.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" --cmd_file="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip/TOOLS/defines/cc13x2r1lp_bim_offchip_Debug.opt"  -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/board_support_pkg/CC26X2R1_CC13X2R1_LAUNCHXL/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X2 -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="Application/crc32.d_raw" --obj_directory="Application" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+Application/flash_interface_internal.obj: /Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/flash_interface/internal/flash_interface_internal.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" --cmd_file="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip/TOOLS/defines/cc13x2r1lp_bim_offchip_Debug.opt"  -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/board_support_pkg/CC26X2R1_CC13X2R1_LAUNCHXL/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X2 -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="Application/flash_interface_internal.d_raw" --obj_directory="Application" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+Application/led_debug.obj: /Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/debug/led_debug.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" --cmd_file="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip/TOOLS/defines/cc13x2r1lp_bim_offchip_Debug.opt"  -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/board_support_pkg/CC26X2R1_CC13X2R1_LAUNCHXL/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X2 -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="Application/led_debug.d_raw" --obj_directory="Application" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+Application/startup_ccs.obj: /Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files/startup_ccs.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" --cmd_file="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip/TOOLS/defines/cc13x2r1lp_bim_offchip_Debug.opt"  -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path="/Users/mikael/Code/testing-cc1352/cc13x2r1lp_bim_offchip" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1/startup_files" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/common/cc26xx/board_support_pkg/CC26X2R1_CC13X2R1_LAUNCHXL/" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti" --include_path="/Users/mikael/ti/simplelink_cc13x2_sdk_2_20_00_71/source/ti/devices/cc13x2_cc26x2_v1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X2 -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="Application/startup_ccs.d_raw" --obj_directory="Application" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+
