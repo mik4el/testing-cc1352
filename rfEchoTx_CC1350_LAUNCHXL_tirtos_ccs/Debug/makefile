@@ -151,7 +151,7 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@$(MAKE) --no-print-directory -Onone "rfEchoTx_CC1350_LAUNCHXL_tirtos_ccs.out"
 
 dependents:
-	-cd /Users/mikael/Code/testing-cc1352/tirtos_builds_CC1350_LAUNCHXL_release_ccs/Debug && $(MAKE) clean all
+	-cd /Users/mikael/Code/testing-cc1352/tirtos_builds_CC1350_LAUNCHXL_release_ccs/Debug && $(MAKE) all
 
 # Tool invocations
 rfEchoTx_CC1350_LAUNCHXL_tirtos_ccs.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS) /Users/mikael/Code/testing-cc1352/tirtos_builds_CC1350_LAUNCHXL_release_ccs/Debug/tirtos_builds_CC1350_LAUNCHXL_release_ccs.lib
